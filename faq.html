@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Toolkit Css File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Font Awesome Library Css File -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>FAQ</title>
+  </head>
+  <body>
+    <!-- Start Loading -->
+
+    <div class="loading">
+      <div class="overlay"></div>
+      <div class="loader">
+        <div class="lds-facebook">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Loading -->
+
+    <!-- ============================================================== -->
+
+    <!-- Start Scroll Page -->
+    <div class="scroller"></div>
+    <!-- End Scroll Page -->
+
+    <!-- ============================================================== -->
+
+    <!-- Start Setting Box -->
+
+    <div class="settings-box position-fixed">
+      <div class="toggle-settings">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-gear settings-icon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"
+          />
+          <path
+            d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"
+          />
+        </svg>
+      </div>
+      <div class="options-box">
+        <h4>Colors</h4>
+        <ul class="colors-list list-unstyled">
+          <li class="active" data-color="#ff9800"></li>
+          <li data-color="#e91e63"></li>
+          <li data-color="#009688"></li>
+          <li data-color="#03a9f4"></li>
+          <li data-color="#4caf50"></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- End Setting Box -->
+
+    <!-- ============================================================== -->
+
+    <!-- Start NavBar -->
+    <div class="header fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">My Website</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="faq.html">FAQ</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Programming</a></li>
+                  <li><a class="dropdown-item" href="#">Web Design</a></li>
+                  <li><a class="dropdown-item" href="#">Desktop</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Web Hosting</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- End NavBar -->
+
+    <!-- ============================================================== -->
+
+    <section class="faq">
+      <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p>
+          Here You Will Find All Questions You Are Searching For And The Full
+          Knowledgebase
+        </p>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="box">
+              <div class="accordion" id="accordionExample">
+                <!-- Question One -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      #1 How To Use Bootstrap Version 5.3.3 ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      This Is Test Message Describe The Answer Of
+                      <strong> The First Question </strong> Lorem ipsum dolor
+                      sit amet consectetur adipisicing elit. Itaque dolor
+                      quaerat, ratione ut rem officiis assumenda illo ad omnis.
+                    </div>
+                  </div>
+                </div>
+                <!--\\ Question One //-->
+
+                <!-- Question Two -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      #2 How To Use Media Queries ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      This Is Test Message Describe The Answer Of
+                      <strong> The Second Question </strong> Lorem ipsum dolor
+                      sit amet consectetur adipisicing elit. Itaque dolor
+                      quaerat, ratione ut rem officiis assumenda illo ad omnis.
+                    </div>
+                  </div>
+                </div>
+                <!--\\ Question Two //-->
+
+                <!-- Question Three -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      #3 How To Create Your Own Slider ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      This Is Test Message Describe The Answer Of
+                      <strong> The Third Question </strong> Lorem ipsum dolor
+                      sit amet consectetur adipisicing elit. Itaque dolor
+                      quaerat, ratione ut rem officiis assumenda illo ad omnis.
+                    </div>
+                  </div>
+                </div>
+                <!--\\ Question Three //-->
+
+                <!-- Question Four -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      #4 How To Create Your Own Accordion ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      This Is Test Message Describe The Answer Of
+                      <strong> The Fourth Question </strong> Lorem ipsum dolor
+                      sit amet consectetur adipisicing elit. Itaque dolor
+                      quaerat, ratione ut rem officiis assumenda illo ad omnis.
+                    </div>
+                  </div>
+                </div>
+                <!--\\ Question Four //-->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="image">
+              <img src="images/FAQ.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================== -->
+
+    <!-- Start Ultimate Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xl-3">
+            <div class="box">
+              <h4>SiteMap</h4>
+              <div class="row">
+                <div class="col-md-4 mobile">
+                  <ul class="list-unstyled">
+                    <li>Home</li>
+                    <li>Code</li>
+                    <li>Solutions</li>
+                  </ul>
+                </div>
+                <div class="col-md-4 mobile">
+                  <ul class="list-unstyled">
+                    <li>About</li>
+                    <li>Design</li>
+                    <li>Sitemap</li>
+                  </ul>
+                </div>
+                <div class="col-md-4 mobile">
+                  <ul class="list-unstyled">
+                    <li>Company</li>
+                    <li>Host</li>
+                    <li>Concat</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="social-media-icons">
+                <i class="fa-brands fa-facebook facebook"></i>
+                <i class="fa-brands fa-youtube youtube"></i>
+                <i class="fa-brands fa-instagram instagram"></i>
+                <i class="fa-brands fa-twitter twitter"></i>
+                <i class="fa-brands fa-linkedin linkedin"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-5">
+            <div class="box">
+              <h4>Latest Articles</h4>
+              <div class="info mb-1">
+                <div class="image">
+                  <img src="images/Programming.png" alt="" />
+                </div>
+                <div class="content">
+                  <h5>Programming</h5>
+                  <p>
+                    This Is Some Text About Programming Describe The Media Of
+                    Bootstrap 5.3.3
+                  </p>
+                </div>
+              </div>
+
+              <div class="info mb-1">
+                <div class="image">
+                  <img src="images/Coding.png" alt="" />
+                </div>
+                <div class="content">
+                  <h5>Coding</h5>
+                  <p>
+                    This Is Some Text About Coding Describe The Media Of
+                    Bootstrap 5.3.3
+                  </p>
+                </div>
+              </div>
+
+              <div class="info mb-1">
+                <div class="image">
+                  <img src="images/Web_Design.png" alt="" />
+                </div>
+                <div class="content">
+                  <h5>Web Design</h5>
+                  <p>
+                    This Is Some Text About Web Design Describe The Media Of
+                    Bootstrap 5.3.3
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4">
+            <div class="box">
+              <h4>Our Awesome Work</h4>
+              <div class="imgs">
+                <img src="images/Our_Work-01.jpg" alt="Our_Work-01" />
+                <img src="images/Our_Work-02.jpg" alt="Our_Work-02" />
+                <img src="images/Our_Work-03.jpg" alt="Our_Work-03" />
+                <img src="images/Our_Work-04.jpg" alt="Our_Work-04" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center">
+        Copyright &copy; 2025 - Created By <span>Muhammed AL-Sous</span>
+      </div>
+    </footer>
+
+    <!-- End Ultimate Footer Section -->
+
+    <!-- ============================================================== -->
+
+    <!-- Head Room Library -->
+    <script src="javaScript/headroom.js"></script>
+    <!-- Font Awesome Library Javascript File -->
+    <script src="javaScript/all.min.js"></script>
+    <!-- Wow JavaScript Library -->
+    <script src="javaScript/wow.min.js"></script>
+    <!-- Bootstrap Toolkit Javascript File -->
+    <script src="javaScript/bootstrap.bundle.min.js"></script>
+    <!-- Main JavaScript File -->
+    <script src="javaScript/script.js"></script>
+  </body>
+</html>
